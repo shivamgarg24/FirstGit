@@ -14,6 +14,7 @@ public class TestString {
     	String str = "My name is chnaged Shivam Garg having ip 192.168.200.9 and ip is 192.168.200.10";
     	String[] strArray =StringUtils.split(str);
     	System.out.println(strArray);
+        String testing = null;
     	String[] strNewArray = Arrays.copyOfRange(strArray, 3,strArray.length);
     	
     	String[] filteredArray = Arrays.stream(strNewArray)
