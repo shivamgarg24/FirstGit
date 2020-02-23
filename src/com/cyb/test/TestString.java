@@ -11,7 +11,7 @@ import org.apache.commons.lang3.StringUtils;
 public class TestString {
 
     public static void main(String[] args) {
-    	String str = "My name is Rahul Pyasi having ip 192.168.200.9 and ip is 192.168.200.10";
+    	String str = "My name is chnaged Rahul Pyasi having ip 192.168.200.9 and ip is 192.168.200.10";
     	String[] strArray =StringUtils.split(str);
     	System.out.println(strArray);
     	String[] strNewArray = Arrays.copyOfRange(strArray, 3,strArray.length);
