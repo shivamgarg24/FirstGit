@@ -15,7 +15,7 @@ public class TestString {
     	String[] strArray =StringUtils.split(str);
     	System.out.println(strArray);
         String testing = null;
-    	String[] strNewArray = Arrays.copyOfRange(strArray, 4,strArray.length);
+    	String[] strNewArray = Arrays.copyOfRange(strArray, 7,strArray.length);
     	
     	String[] filteredArray = Arrays.stream(strNewArray)
     		    .filter(e -> !e.equals("192.168.200.10")).toArray(String[]::new);
